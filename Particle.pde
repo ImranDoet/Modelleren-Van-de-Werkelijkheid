@@ -23,11 +23,14 @@ abstract class Particle {
     location.add(velocity);
   }
   
+  //Applies forces
   void applyForce(PVector force) {
    force.div(mass);
    acceleration.add(force);
   }
   
+  
+  //Everythin thats an child class of Particle needs to have this method
   public abstract void display();
   
   
@@ -46,6 +49,7 @@ abstract class Particle {
      return false;
   }
   
+  //This gets called
   public void run() {
     if (!checkBounds()) {
       nettokracht(g);
