@@ -1,8 +1,4 @@
-/*
-Eindopdracht - Imran
- Idee: 
- levend schilderij met sneeuw, een beetje als dat van teun maar dan iets extra's?
-*/
+//Eindopdracht - Imran
 
 ArrayList<SnowParticle> snowParticles; //Makes an list of all the snowParticles!
 ArrayList<PVector> trees;
