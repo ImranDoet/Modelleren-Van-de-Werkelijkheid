@@ -4,7 +4,6 @@ class RecursiveTree {
   Returns an instance of an new RecursiveTree object.
   Takes the startPosition of the tree and the starting length.
   */
-  
   public RecursiveTree(PVector startPos, float startLength) {
     pushMatrix();
     stroke(255);
@@ -19,7 +18,6 @@ class RecursiveTree {
   /*
   Draws the tree. This takes the length variable, the variable also goes through 
   some calculations so that each branch is smaller than the previous branch.
-  The colorAmount is for lerpcolor. And the color for lerpcolor.
   */
   public void drawTree(float len) {
     len *= 0.66;
